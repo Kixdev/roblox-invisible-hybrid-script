@@ -25,16 +25,6 @@
   Adjust underground offset depth dynamically (range 1–500).
   Changes apply instantly and affect the hybrid offset logic directly.
 
-* **Smooth Input Handling**
-  Slider interaction does not interfere with UI dragging.
-  Global input release prevents mouse lock, chat issues, or stuck UI states.
-
-* **Respawn Safe**
-  Automatically rescans the character on respawn and resets visibility to prevent duplicated connections or broken behavior.
-
-* **Clean Connection Management**
-  All event connections are tracked and safely disconnected, allowing the script to be re-executed without memory leaks.
-
 ---
 
 ## 🎮 Controls
